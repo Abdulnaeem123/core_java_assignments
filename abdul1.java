@@ -1,17 +1,21 @@
 package basicprograms;
 
-public class sum_of_odd {
+public class a {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int sum=0;
-		for (int i = 1; i <=100; i++) {
-			if(i%2!=0)
-			{
-				sum=sum+i;
-			}
-		}
-System.out.println(sum);
+  int count=1;
+  int j=1;
+  while(count<=10)
+  {
+	  if(j%5==0)
+	  {
+		  System.out.println(j);
+		  count++;
+		  
+	  }
+	  j++;
+  }
 	}
 
 }

@@ -8,7 +8,7 @@ public class c {
 		  int j=1;
 		  while(count<=5)
 		  {
-			  if(j%4!=0)
+			  if(j%2!=0 && j%5!=0)
 			  {
 				  System.out.println(j);
 				  count++;

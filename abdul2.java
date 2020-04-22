@@ -1,14 +1,22 @@
 package basicprograms;
 
-public class product_of_two_no {
+public class c {
 
 	public static void main(String[] args) {
-		double product=1d;
-		for (int i = 1; i<=100; i++) 
-		{
-			product=product * i;
-		}
-System.out.println(product);
+		// TODO Auto-generated method stub
+		int count=1;
+		  int j=1;
+		  while(count<=10)
+		  {
+			  if(j%3==0 && j%6==0)
+			  {
+				  System.out.println(j);
+				  count++;
+				  
+			  }
+			  j++;
+		  }
+
 	}
 
 }
